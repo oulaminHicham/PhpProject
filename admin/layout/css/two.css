@@ -1,0 +1,334 @@
+
+/* GENERAL SYLING */
+.form-general .Edit
+{
+    margin: 20px auto;
+    border-radius: 5px;
+    background-color: rgba(72, 84, 91 , 0.5);
+    width: 60%;
+    margin: 0 auto 50px;
+}
+table tr td.control
+{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+body
+{
+    background-color: #294d62;
+    font-size: 16px;
+}
+/* start login stiling */
+.login 
+{
+    width: 300px;
+    background-color:#6da5c0 ;
+    margin: 100px auto;
+    border-radius: 5px;
+}
+.login h4{
+    font-size: 24;
+    color: #0e4e6e;
+    font-weight: bold;
+    font-style: italic;
+}
+.login .form-control
+{
+    background-color:#f1f7f7 ;
+    font-style: italic;
+}
+.login .form-label
+{
+    font-style: italic;
+}
+/* end login stiling */
+/* ############## START DASHBORD PAGE */
+.hom-stat h3{
+    letter-spacing: 1px;
+    color: #0d3143;
+    background-color: #afe4ff;
+    text-transform: uppercase;
+    width:fit-content;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin:30px auto;
+}
+.hom-stat .stat
+{
+    text-align: center;
+    vertical-align: middle;
+    padding: 20px 0;
+    font-size: 15px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.hom-stat .stat i
+{
+    font-size: 80px;
+}
+.hom-stat .stat  span a{
+    text-decoration: none;
+}
+
+.hom-stat .stat span
+{
+    display: block;
+    font-size: 60px;
+}
+.hom-stat .st-members{
+    background-color: #3498db;
+}
+.hom-stat .st-pending{
+    background-color: #ae4042;
+}
+.hom-stat .st-items{
+    background-color: #d26014;
+}
+.hom-stat .st-comment{
+    background-color: #3498db;
+}
+.latest
+{
+    margin-top: 40px;
+}
+.latest .panel-heading{
+    background-color:#0f969c;
+}
+.letestContent{
+    margin-bottom: 0;
+    overflow: hidden;
+}
+.letestContent li{
+    margin: 5px 0;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+.letestContent li:nth-child(odd){
+    background-color: #eee;
+}
+.letestContent li span
+{
+    display: flex;
+    gap: 10px;
+}
+.letestContent li div{
+    display: flex;
+    gap: 5px;
+}
+.letestContent .edit{
+    text-decoration: none;
+}
+.latest .comment-box
+{
+    margin: 10px 0;
+    display: flex;
+    gap: 20px;
+}
+.latest .comment-box .user-n
+{
+    width: 100px;
+}
+.latest .comment-box .user-n a
+{
+    text-decoration: none;
+    text-transform: capitalizenm                 ;
+}
+.latest .comment-box .user-com
+{
+    width: calc(100% - 100px);
+    background-color: #999;
+    padding: 10px 20px;
+    border-radius:5px 10px 10px 5px;
+    font-style: italic;
+    position: relative;
+}
+.latest .comment-box .user-com::before
+{
+    content: '';
+    border:15px solid;
+    border-color: transparent #999  transparent transparent;
+    position: absolute;
+    top: 5px;
+    left: -29px;
+}
+
+/* ############## END DASHBORD PAGE */
+
+/*##################### START MEMBERS PAGE */
+/* start boostrap changing */
+.navbar{
+    gap: 50px;
+}
+.navbar-brand
+{
+    font-size: 1em;
+}
+.navbar-brand{
+    font-size: 1em;
+}
+.nav-link,
+.navbar-brand{
+    padding: 15px 12px;
+}
+.navbar-collapse .navbar-nav
+{
+    gap: 5px;
+}
+
+/* esnd boostrap changing */
+
+/* start edit members */
+.manag-member{
+    color: #6da5c0;
+}
+.Edit-member h3{
+    color: #6da5c0;
+}
+form .Edit-member{
+    max-width: 600px;
+    background-color: #385364;
+    border-radius: 5px;
+}
+.Edit-member .btn{
+    width: 140px;
+}
+.main-table{
+    box-shadow: 0 3px 30px #05161a;
+}
+.main-table tr:first-child{
+    background-color: #333;
+    color: #d0cccc;
+}
+.main-table td{
+    background-color:#6da5c0;
+    vertical-align: middle !important;
+}
+.main-table .btn{
+    padding: 3px 10px;
+}
+.container .daelBTN
+{
+    background-color: #0584cd;
+    border: none;
+}
+/* end edit members */
+/*##################### END MEMBERS PAGE */
+
+/*##################### START CATEGORIR PAGE */
+.categories .panel .panel-heding,
+.categories .panel .panel-body{
+    border-radius: 5px;
+}
+
+.add-cat
+{
+    background-color: #385364;
+}
+.titleCat
+{
+    color: #3498db;
+    border: 1px dashed ;
+    width: fit-content;
+    margin: 20px auto;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+.cat .titleCat2{
+    color: #88a0a1;
+    font-weight: bold;
+    font-style: italic;
+}
+.cat .full-view p
+{
+    color: #000000;
+    font-weight: bold;
+    font-style: oblique;
+    opacity: 0.7;
+}
+.categories hr{
+    margin-top: 5px;
+    margin-bottom:5px ;
+}
+.categories .cat h4
+{
+    margin: 0 0 10px;
+}
+.categories .panel-heding{
+    color: #0d3143;
+    font-weight: bold;
+    font-style: italic;
+    letter-spacing: 0.8px;
+}
+.categories .cat{
+    padding: 15px;
+    position: relative;
+    overflow: hidden;
+}
+.categories .cat:hover
+{
+    background-color: #eee;
+}
+.categories .cat:hover .hidden-buttons{
+    right: 10px;
+}
+.categories .cat .hidden-buttons{
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+    position: absolute;
+    top: 20px;
+    right: -600px;
+}
+.categories .cat .hidden-buttons a{
+    margin-right: 5px;
+    padding: 2px 5px;
+}
+.categories .cat:last-of-type ~ hr{
+    display: none;
+}
+.categories .cat .vesibelty,
+.categories .cat .alaw-comments,
+.categories .cat .alaw-ads{
+    color: #fff;
+    padding: 3px 10px;
+    border-radius: 5px;
+    margin-right: 8px;
+}
+.categories .cat .vesibelty{
+    background-color: #d30400;
+}
+.categories .cat .alaw-comments{
+    background-color: #2c3e50;
+}
+.categories .cat .alaw-ads{
+    background-color:#ae4042 ;
+}
+/* #################### END CATEGORE PAGE# */
+
+/* START ITEM PAGE  */
+.add-item{
+    background-color: rgba(109, 165, 192,0.5);
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.add-item form label
+{
+    color: #031f22;
+    font-weight: 400;
+    font-style: italic;
+    letter-spacing: 0.9px;
+}
+.add-item form h3{
+    color: #161819;
+    opacity: 0.8;
+    padding: 10px 5px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+.add-item form select option{
+    background-color: #d0d2d2;
+}
+/* END ITEM PAGE */

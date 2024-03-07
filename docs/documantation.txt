@@ -1,0 +1,27 @@
+###############################################################################################################
+###### the redirectToHom() function is created to redirect to hom page in we have error 
+###### and is accept to param :
+        @ $error    --> it is take the error message
+        @ $secoond  --> it is take the time to redirect to hom page and it is take 3 second by defaulteurl 
+        @ $url      --> whene you want to redirect to heme
+          # if no specific url you well redirected to hom page
+          # if you rhite smmeting you well redirected to previuoss page if you cam from page if you not you well redirected to home page
+###############################################################################################################
+
+###############################################################################################################
+#### checkItem() function is a function to select somme colone from table users and return 1 if it is exists
+#### and if not exists return 0 and buld your sinario about the result
+#### FUNCTION NEDD 3 ARGEMENT:
+        1/ $SELECT ---> WHAT we want to selected
+        2/ $from   ---> the name of table to select from
+        3/ $value  ---> the value put it in WHERE CLOSE TO select spesific data
+###############################################################################################################
+
+###############################################################################################################
+####### getLatestItmes() function is used to get data from data base and it is based for select colone from data
+####### base orderd dynamique clomn and limited to dynamic variable hav 5 for default and have 4 parem :
+                @@ $select   --> what is the column you want to selected
+                @@ $table    --> from witch table you want to select from 
+                @@ $orderdBy --> witch column do want to orderd by 
+                @@ $limit    --> number of items do want to selected
+###############################################################################################################

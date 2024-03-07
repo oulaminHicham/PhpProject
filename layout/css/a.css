@@ -1,0 +1,165 @@
+
+/* GENERAL SYLING */
+
+body
+{
+    font-size: 16px;
+    background-color: #48D1CC;
+}
+.form
+{
+    background-color:#9ad1cf;
+    padding: 20px;
+    border-radius: 10px;
+    width: 25%;
+}
+.form .title
+{
+    color: #5F9EA0;
+}
+.title
+{
+    color:#003d4d ;
+    font-style: italic;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-shadow: #70dbd8 1px 1px;
+}
+/*END GENERAL SYLING */
+/* login styling */
+.login-form .title span
+{
+    cursor: pointer;
+}
+.login-form .selected
+{
+    color: #0c3a3c;
+}
+.login-form #sign
+{
+    display: none;
+}
+@media(max-width: 973px) {
+    .form
+    {
+        width: 50%;
+    }
+    
+}
+@media(max-width: 563px) {
+    .form
+    {
+        width: 75%;
+    }
+    
+}
+/* login styling end */
+/* profile styling start */
+.information .panel-heading
+{
+    background-color:  #145250;
+    color: #ebfaf9;
+}
+.information .panel-body
+{
+    background-color:#d6f5f4 ;
+    color: #595959 ;
+}
+/* profile styling end */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* start boostrap changing */
+.navbar{
+    gap: 50px;
+}
+.navbar-brand
+{
+    font-size: 1em;
+}
+.navbar-brand{
+    font-size: 1em;
+}
+.nav-link,
+.navbar-brand{
+    padding: 15px 12px;
+}
+.navbar-collapse .navbar-nav
+{
+    gap: 5px;
+}
+
+/* esnd boostrap changing */
+
+/* START CATEGORIE PAGE */
+
+.item-box 
+{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    background-color: #dee2e6;
+    border-radius: 15px;
+    position: relative;
+}
+.item-box span
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 2px 10px;
+    background-color: #6e7687;
+    color:#e5e7e9 ;
+    border-radius: 0 0 5px 0;
+}
+.item-box  img
+{
+    width: 100%;
+    border-radius: 5px;
+}
+.item-box  .caption
+{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+/* END CATEGORIE PAGE */
+
